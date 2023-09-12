@@ -19,8 +19,8 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip3 install -r requirements.txt
 
       - name: Run Python script
-        run: python test.py # Change it to your Python file name
+        run: python3 test.py # Change it to your Python file name
 
